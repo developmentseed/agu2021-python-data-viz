@@ -1,0 +1,29 @@
+name: python-dataviz
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pangeo-notebook=2021.07.24
+  - bokeh
+  - cartopy
+  - dask
+  - datashader
+  - erddapy
+  - fastparquet
+  - geoviews
+  - holoviews
+  - hvplot
+  - jupyter
+  - jupyterlab
+  - jupyterlab-git
+  - matplotlib-base
+  - numpy
+  - pandas
+  - panel
+  - param
+  - rise
+  - seaborn
+  - shapely
+  - xarray
+  - zarr
+  
