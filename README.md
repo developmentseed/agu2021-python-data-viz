@@ -4,7 +4,7 @@ This repo a tutorial on python libraries for interactive and geospatial data vis
 
 ## Remote execution with MyBinder
 
-Click: [![Binder](https://mybinder.org/badge_logo.svg)]() and wait for a cloud-hosted jupyter lab to be deployed using `environment.yml`.
+Click: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/developmentseed/agu2021-python-data-viz/HEAD) and wait for a cloud-hosted jupyter lab to be deployed using `environment.yml`.
 
 ## Local execution using Conda
 
