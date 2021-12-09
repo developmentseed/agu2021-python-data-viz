@@ -21,3 +21,11 @@ Click: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/
 * Running the html slideshow locally or exporting to PDF slides: https://rise.readthedocs.io/en/stable/exportpdf.html
 * Hosting the html slideshow with Github Pages: [How to host Jupyter Notebook slides on Github
 ](https://towardsdatascience.com/how-to-host-jupyter-notebook-slides-on-github-d785f30e6e2)
+
+```bash
+git checkout gh-pages
+git merge main
+jupyter nbconvert tutorial.ipynb --to slides --stdout > index.html
+git commit -am "Updated slides"
+git push -u origin gh-pages
+```
