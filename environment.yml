@@ -10,6 +10,7 @@ dependencies:
   - datashader
   - erddapy
   - fastparquet
+  - folium
   - geoviews
   - holoviews
   - hvplot
