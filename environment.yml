@@ -13,6 +13,7 @@ dependencies:
   - folium
   - geoviews
   - holoviews
+  - httpx
   - hvplot
   - jupyter
   - jupyterlab
