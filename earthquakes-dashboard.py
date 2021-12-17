@@ -1,4 +1,5 @@
 import dask.dataframe as dd
+import hvplot.dask # noqa: adds hvplot method to dask objects
 import holoviews as hv
 import datashader as ds
 from colorcet import palette
